@@ -34,7 +34,7 @@ jobs:
           node-version: 22
       - name: Install frontend deps
         working-directory: frontend
-        run: |
+        run:
           npm install
           npm run build
       - name: Cache SonarCloud
